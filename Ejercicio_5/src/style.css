@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section {
+	width: 600px;
+	padding: 20px;
+	margin: 20px;
+}
+.container {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.container .img-content {
+	height: 200px;
+	
+}
+.img-content img {
+	transition: 0.5s;
+}
+.img-content img:hover {
+ filter: blur(2px) brightness(0.8);
+}
